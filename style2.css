@@ -1,0 +1,40 @@
+*
+{
+    background-color: aquamarine;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: row gap 2em;
+    
+    
+}
+ .buttons
+  {
+      display: flex;
+      flex-direction: column;
+      color: orangered;
+      
+      
+    
+    
+}
+.question
+{
+    color: black;
+    font-weight: bold;
+}
+#p
+{
+    color: red;
+}
+#score
+{
+    color: green;
+}
+
+
+
+    
+
