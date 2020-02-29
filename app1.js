@@ -6,7 +6,7 @@ var interval;
 var ID;
 var ID_2;
 //used for declaring stringlength based on selection of level
-var s;
+
 var ans;
 //used for string length;
 var result =0;
@@ -16,8 +16,7 @@ var question;
 // to coun score
      var count=0;
 // used for generating the questions
-var arr = ["enter the first two characters","enter the last two characters","enter first and last character",
-"enter the last and first character","enter the string in reverse order"];
+
 // function 
 
 
@@ -25,30 +24,7 @@ var arr = ["enter the first two characters","enter the last two characters","ent
 /// choose level function ,it selects which level you want and display that html page
 function chooselevel()
 {
-    var beginner=document.getElementById('beginner');
-    var intermediate=document.getElementById('intermediate');
-    var advanced=document.getElementById('advanced');
-    if(beginner.checked==true)
-    {
-        s=3;
-        console.log(s);
-        
-   window.location.href="index2.html";
-    
-
-    }
-    else if(intermediate.checked==true)
-    {
     window.location.href="index2.html";
-    s=5;
-    }
-    else if(advanced.checked==true)
-    {
-    window.location.href="index2.html";
-    s=7;
-    }
-    else
-    alert("please select you level");
 }
 
 
